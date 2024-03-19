@@ -2,7 +2,7 @@
 
 A Zig Library for Encoding and Decoding Formats
 
-- Using Zig master branch, I am on zig version `0.12.0-dev.3352+95cb93944`
+- Using Zig master branch, I am on zig version `0.12.0-dev.3352+95cb93944`. Probably any recent zig version would work.
 
 ## Installation
 
