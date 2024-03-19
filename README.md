@@ -2,7 +2,7 @@
 
 A Zig Library for Encoding and Decoding Formats
 
-- I am on neovim version `0.12.0-dev.3352+95cb93944`
+- Using Zig master branch, I am on zig version `0.12.0-dev.3352+95cb93944`
 
 ## Installation
 
@@ -109,4 +109,3 @@ test "is base64" {
     try std.testing.expect(!base64.isBase64(invalid_base64));
 }
 ```
-
