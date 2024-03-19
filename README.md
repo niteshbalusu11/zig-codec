@@ -1,10 +1,13 @@
 # zig-codec
+
 A Zig Library for Encoding and Decoding Formats
 
-- Note: `I am on zig version 0.12.0-dev.3160+aa7d16aba`
+- I am on neovim version `0.12.0-dev.3352+95cb93944`
 
 ## Installation
+
 - In your `build.zig.zon`
+
 ```zig
     .dependencies = .{
         .zigcodec = .{
@@ -14,7 +17,9 @@ A Zig Library for Encoding and Decoding Formats
         },
     },
 ```
+
 - In your `build.zig`
+
 ```zig
     const zigcodec = b.dependency("zigcodec", .{
         .target = target,
@@ -30,6 +35,7 @@ A Zig Library for Encoding and Decoding Formats
 ```
 
 ## Example Hex Encoding and Decoding
+
 ```zig
 const hex = @import("zigcodec").hex;
 const std = @import("std");
@@ -67,6 +73,7 @@ test "is valid hex" {
 ```
 
 ## Example Base64 Encoding and Decoding
+
 ```zig
 const std = @import("std");
 const base64 = @import("zigcodec").base64;
@@ -102,3 +109,4 @@ test "is base64" {
     try std.testing.expect(!base64.isBase64(invalid_base64));
 }
 ```
+
