@@ -12,7 +12,7 @@ A Zig Library for Encoding and Decoding Formats
     .dependencies = .{
         .zigcodec = .{
             .url = "https://github.com/niteshbalusu11/zig-codec/archive/<some-commit-hash>.tar.gz",
-            // The compiler should give you the right hash to use and replace
+            // The compiler should give you the right hash to use and replace.
             .hash = "12209012a6baf146acc3bb13f3f84243bba8f266b18d775b2ba84de0038319a4a159",
         },
     },
